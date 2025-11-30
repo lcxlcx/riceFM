@@ -19,3 +19,35 @@ scipy==1.14.1
 scvi-tools==0.20.3
 transformers==4.46.3
 datasets==2.21.0
+
+# Pretrained riceFM Model
+
+Here is the pretrained models. Please find the links for downloading the checkpoint folders. 
+
+|
+ Model name                    
+|
+ Description                                               
+|
+ Download 
+|
+|
+-------------------------------
+|
+-----------------------------------------------------------
+|
+----------
+|
+|
+riceFM
+|
+riceFM was pretrained using multi-omics data, with a pretraining dataset comprising more than 700,000 rice single-cell transcriptomes and integrating over 300,000 rice spatial transcriptomic profiles.        
+|
+ 
+[
+link
+](
+riceFM was pretrained using multi-omics data, with a pretraining dataset comprising more than 700,000 rice single-cell transcriptomes and integrating over 300,000 rice spatial transcriptomic profiles.
+)
+|
+
