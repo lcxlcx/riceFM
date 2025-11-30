@@ -21,14 +21,6 @@ transformers==4.46.3
 datasets==2.21.0
 ```
 
-# Pretrained riceFM Model
-
-Here is the pretrained models. Please find the links for downloading the checkpoint folders. 
-
-|Model name|Description|Download|
-|:-|:-|:-|
-|riceFM|riceFM was pretrained using multi-omics data, <br> with a pretraining dataset comprising more than 700,000 <br> rice single-cell transcriptomes and integrating over <br> 300,000 rice spatial transcriptomic profiles.|[link](https://drive.google.com/drive/folders/1kDpOd5D6KaMak1mHgY3Dcb_OZF2NrxGq?usp=drive_link)|
-
 
 # Pretraining Pipeline:
 
@@ -45,3 +37,22 @@ Here is the pretrained models. Please find the links for downloading the checkpo
    - [pretrain.py](/run/pretrain.py): Code for the model pretraining process  
    - [run_pretrain_single_npu.sh](/run/run_pretrain_single_npu.sh): Single-NPU training script; users can modify or add model-related configurations as needed  
    - [run_pretrain_multi_npu.sh](/run/run_pretrain_multi_npu.sh): Multi-NPU training script; for other clusters, refer to the [pretrain.sh](/run/pretrain.sh) script (using `torchrun`)
+
+
+
+
+# Tutorial
+Please refer to the usage tutorials for applying pre-trained riceFM models to various downstream tasks. 
+
+Tutorials can be found here:[Tutorials](/tutorials)
+
+
+
+
+# Download the pre-trained riceFM model 
+
+Here is the pretrained models. Please find the links for downloading the checkpoint folders. 
+
+|Model name|Description|Download|
+|:-|:-|:-|
+|riceFM|riceFM was pretrained using multi-omics data, <br> with a pretraining dataset comprising more than 700,000 <br> rice single-cell transcriptomes and integrating over <br> 300,000 rice spatial transcriptomic profiles.|[link](https://drive.google.com/drive/folders/1kDpOd5D6KaMak1mHgY3Dcb_OZF2NrxGq?usp=drive_link)|
