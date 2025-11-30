@@ -27,30 +27,10 @@ datasets==2.21.0
 
 Here is the pretrained models. Please find the links for downloading the checkpoint folders. 
 
-|
- Model name                    
-|
- Description                                               
-|
- Download 
-|
-|
--------------------------------
-|
------------------------------------------------------------
-|
-----------
-|
-|
-riceFM
-|
-riceFM was pretrained using multi-omics data, with a pretraining dataset comprising more than 700,000 rice single-cell transcriptomes and integrating over 300,000 rice spatial transcriptomic profiles.        
-|
- 
-[
-link
-](
+|Model name|Description|Download|
+|:-|:-:|-:|
+|riceFM|
 riceFM was pretrained using multi-omics data, with a pretraining dataset comprising more than 700,000 rice single-cell transcriptomes and integrating over 300,000 rice spatial transcriptomic profiles.
-)
-|
-
+|[link](
+riceFM was pretrained using multi-omics data, with a pretraining dataset comprising more than 700,000 rice single-cell transcriptomes and integrating over 300,000 rice spatial transcriptomic profiles.
+)|
