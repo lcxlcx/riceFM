@@ -1,0 +1,2 @@
+# riceFM
+A foundation model
