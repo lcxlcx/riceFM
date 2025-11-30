@@ -32,7 +32,7 @@ Here is the pretrained models. Please find the links for downloading the checkpo
 
 # Pretraining Pipeline:
 
-1. First, convert h5ad data into the input format required for scGPT pretraining.
+1. First, convert h5ad data into the input format required for riceFM pretraining.
   
    Conversion script:  [build_data.py](/run/build_data.py)
 
@@ -43,5 +43,5 @@ Here is the pretrained models. Please find the links for downloading the checkpo
 
 2. Execute the pretraining script  
    - [pretrain.py](/run/pretrain.py): Code for the model pretraining process  
-   - [run_pretrain_single.py](run_pretrain_single.py): Single-GPU training script; users can modify or add model-related configurations as needed  
-   - [run_pretrain_.py](run_pretrain_single.py): Multi-GPU training script for job submission on the Wuchao cluster; for other clusters, refer to the `pretrain.sh` script (using `torchrun`)
+   - [run_pretrain_single_npu.sh](/run/run_pretrain_single_npu.sh): Single-NPU training script; users can modify or add model-related configurations as needed  
+   - [run_pretrain_multi_npu.sh](/run/run_pretrain_multi_npu.sh): Multi-NPU training script; for other clusters, refer to the `pretrain.sh` script (using `torchrun`)
