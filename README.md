@@ -29,5 +29,19 @@ Here is the pretrained models. Please find the links for downloading the checkpo
 |:-|:-|:-|
 |riceFM|riceFM was pretrained using multi-omics data, <br> with a pretraining dataset comprising more than 700,000 <br> rice single-cell transcriptomes and integrating over <br> 300,000 rice spatial transcriptomic profiles.|[link](https://drive.google.com/drive/folders/1kDpOd5D6KaMak1mHgY3Dcb_OZF2NrxGq?usp=drive_link)|
 
-# 预训练流程
-[链接到子目录中的文件](/run)
+
+# Pretraining Pipeline:
+
+1. First, convert h5ad data into the input format required for scGPT pretraining.
+  
+   Conversion script:  [build_data.py](/run/build_data.py)
+
+   Parameter descriptions:  
+   - `--input-dir`: Directory storing all h5ad files  
+   - `--output-dir`: Output directory  
+   - `--vocab-file`: Gene vocabulary, a JSON file in the format `{"gene1": 0, "gene2": 1}`  
+
+2. Execute the pretraining script  
+   - `pretrain.py`: Code for the model pretraining process  
+   - `run_pretrain_single_gpu.sh`: Single-GPU training script; users can modify or add model-related configurations as needed  
+   - `dsub_pretrain.sh`: Multi-GPU training script for job submission on the Wuchao cluster; for other clusters, refer to the `pretrain.sh` script (using `torchrun`)
