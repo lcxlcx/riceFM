@@ -9,7 +9,7 @@
 # export NCCL_DEBUG=INFO
 # export TORCH_DISTRIBUTED_DEBUG=DETAIL
 
-# Training config
+# Training config set
 DATASET="/root/rice_pretrain_data_BGI_ST/all_counts"
 MAX_LENGTH=1200
 per_proc_batch_size=64
