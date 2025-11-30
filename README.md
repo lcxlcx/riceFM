@@ -21,8 +21,6 @@ transformers==4.46.3
 datasets==2.21.0
 ```
 
-
-
 # Pretrained riceFM Model
 
 Here is the pretrained models. Please find the links for downloading the checkpoint folders. 
@@ -30,3 +28,6 @@ Here is the pretrained models. Please find the links for downloading the checkpo
 |Model name|Description|Download|
 |:-|:-|:-|
 |riceFM|riceFM was pretrained using multi-omics data, <br> with a pretraining dataset comprising more than 700,000 <br> rice single-cell transcriptomes and integrating over <br> 300,000 rice spatial transcriptomic profiles.|[link](https://drive.google.com/drive/folders/1kDpOd5D6KaMak1mHgY3Dcb_OZF2NrxGq?usp=drive_link)|
+
+# 预训练流程
+(../run)
