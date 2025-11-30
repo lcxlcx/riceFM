@@ -29,4 +29,7 @@ Here is the pretrained models. Please find the links for downloading the checkpo
 
 |Model name|Description|Download|
 |:-|:-|:-|
-|riceFM|riceFM was pretrained using multi-omics data,   with a pretraining dataset comprising more than 700,000   rice single-cell transcriptomes and integrating over    300,000 rice spatial transcriptomic profiles.|[link](https://drive.google.com/drive/folders/1kDpOd5D6KaMak1mHgY3Dcb_OZF2NrxGq?usp=drive_link)|
+|riceFM|riceFM was pretrained using multi-omics data,   
+with a pretraining dataset comprising more than 700,000 
+rice single-cell transcriptomes and integrating over 
+300,000 rice spatial transcriptomic profiles.|[link](https://drive.google.com/drive/folders/1kDpOd5D6KaMak1mHgY3Dcb_OZF2NrxGq?usp=drive_link)|
