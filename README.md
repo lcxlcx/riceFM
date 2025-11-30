@@ -19,6 +19,9 @@ scipy==1.14.1
 scvi-tools==0.20.3
 transformers==4.46.3
 datasets==2.21.0
+```
+
+
 
 # Pretrained riceFM Model
 
