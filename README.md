@@ -42,6 +42,6 @@ Here is the pretrained models. Please find the links for downloading the checkpo
    - `--vocab-file`: Gene vocabulary, a JSON file in the format `{"gene1": 0, "gene2": 1}`  
 
 2. Execute the pretraining script  
-   - `pretrain.py`: Code for the model pretraining process  
-   - `run_pretrain_single_gpu.sh`: Single-GPU training script; users can modify or add model-related configurations as needed  
-   - `dsub_pretrain.sh`: Multi-GPU training script for job submission on the Wuchao cluster; for other clusters, refer to the `pretrain.sh` script (using `torchrun`)
+   - [pretrain.py](/run/pretrain.py): Code for the model pretraining process  
+   - [run_pretrain_single.py](run_pretrain_single.py): Single-GPU training script; users can modify or add model-related configurations as needed  
+   - [run_pretrain_.py](run_pretrain_single.py): Multi-GPU training script for job submission on the Wuchao cluster; for other clusters, refer to the `pretrain.sh` script (using `torchrun`)
