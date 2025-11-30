@@ -44,4 +44,4 @@ Here is the pretrained models. Please find the links for downloading the checkpo
 2. Execute the pretraining script  
    - [pretrain.py](/run/pretrain.py): Code for the model pretraining process  
    - [run_pretrain_single_npu.sh](/run/run_pretrain_single_npu.sh): Single-NPU training script; users can modify or add model-related configurations as needed  
-   - [run_pretrain_multi_npu.sh](/run/run_pretrain_multi_npu.sh): Multi-NPU training script; for other clusters, refer to the `pretrain.sh` script (using `torchrun`)
+   - [run_pretrain_multi_npu.sh](/run/run_pretrain_multi_npu.sh): Multi-NPU training script; for other clusters, refer to the [pretrain.sh](/run/pretrain.sh) script (using `torchrun`)
